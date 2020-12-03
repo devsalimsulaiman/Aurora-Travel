@@ -1,0 +1,12 @@
+*** ABOUT THIS PROJECT ***
+	This is a single page template for a travelling website, 
+	And contains slide show for vacations.
+
+
+*** BUILT WITH ***
+	1. HTML
+	2. CSS
+	3. JavaScript 
+	4. JQuery
+	5. Materialize CSS
+	6. Font Awesome

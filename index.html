@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+   <!-- putting Google Icon Font offline -->
+   <link rel="stylesheet" href="iconfont/material-icons.css">
+   <!-- end putting it offline -->
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <!-- Using fontAwesome offline -->
+  <script defer src="fontawesome/js/all.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Travels</title>
+</head>
+
+<body id="home" class="scrollspy">    
+<div class="navbar-fixed">
+  <nav class="teal">
+    <div class="container">
+      <div class="nav-wraper">
+        <a href="#home" class="brand-logo">Aurora Travels</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#search">Search</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- side nav INIT IN JS--> 
+<ul class="side-nav" id="mobile-nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#search">Search</a></li>
+  <li><a href="#popular">Popular</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<!-- Section slider -->
+<section class="slider">
+  <ul class="slides">
+    <li>
+      <img src="img/resort1.jpg" alt="resort photo">
+      <div class="caption center-align">
+        <h2>Take Your Dream Vacation</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ad corrupti error recusandae magni</h5>
+        <a href="#" class="btn btn-large">Learn More..</a>
+      </div>
+    </li>
+    <li>
+      <img src="img/resort2.jpg" alt="resort photo">
+      <div class="caption left-align">
+        <h2>We Work With All Budgets</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ad corrupti error recusandae magni</h5>
+        <a href="#" class="btn btn-large">Learn More..</a>
+      </div>
+    </li>
+    <li>
+      <img src="img/resort3.jpg" alt="resort photo">
+      <div class="caption right-align">
+        <h2>Group & Individual Gateways</h2>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ad corrupti error recusandae magni</h5>
+        <a href="#" class="btn btn-large">Learn More..</a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+<!-- Section and search -->
+<section id="search" class="section section-search teal darken-1 white-text center scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h3>Search Destinations</h3>
+        <div class="input-field">
+          <input type="text" class="white grey-text autocomplete" placeholder="Aruba, Cancun, ete..." id="autocomplete-input">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Icon Boxes -->
+<section class="section section-icons grey lighten-4 center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">room</i>
+          <h4>Pick Where</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, voluptas?</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">store</i>
+          <h4>Travel Shop</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, voluptas?</p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">airplanemode_active</i>
+          <h4>Fly Cheap</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, voluptas?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: popular -->
+<section id="popular" class="section section-popular scrollspy">
+  <div class="container">
+    <div class="row">
+      <h4 class="center"><span class="teal-text">Popular</span> Places</h4>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/resort1.jpg" alt="resort photo">
+            <span class="card-title">Cancun, Mexico</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, impedit atque? Temporibus error ipsam hic?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/resort2.jpg" alt="resort photo">
+            <span class="card-title">California</span>            
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, impedit atque? Temporibus error ipsam hic?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/resort3.jpg" alt="resort image">
+            <span class="card-title">The Bahamas</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, impedit atque? Temporibus error ipsam hic?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center">
+        <a href="#contact" class="btn-large grey darken-3">
+          <i class="material-icons left">send</i>
+          Contact For Booking
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Follow -->
+<section class="section section-follow teal darken-2 white-text center">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h4>Follow Aurora Travels</h4>
+        <p>Follow us on social media for special offers</p>
+        <a href="https://facebook.com" target="_blank" class="white-text">
+        <i class="fab fa-facebook fa-4x"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" class="white-text">
+        <i class="fab fa-twitter fa-4x"></i>
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="white-text">
+        <i class="fab fa-linkedin fa-4x"></i>
+      </a>
+      <a href="https://googleplus.com" target="_blank" class="white-text">
+        <i class="fab fa-google-plus fa-4x"></i>
+      </a>
+      <a href="https://pinterest.com" target="_blank" class="white-text">
+        <i class="fab fa-pinterest fa-4x"></i>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sectio: Gallery -->
+<section id="gallery" class="section section-gallery scrollspy">
+  <div class="container">
+    <h4 class="center">
+      <span class="teal-text">Photo</span> Gallery
+    </h4>
+    <div class="row">
+      <div class="col s12 m3">
+        <img src="img/gallery1.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery2.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery3.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery5.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>      
+    </div>
+    <!-- new row -->
+    <div class="row">
+      <div class="col s12 m3">
+        <img src="img/gallery6.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery7.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery8.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery9.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>      
+    </div>
+    <!-- new row -->
+    <div class="row">
+      <div class="col s12 m3">
+        <img src="img/gallery4.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery11.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery12.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>
+      <div class="col s12 m3">
+        <img src="img/gallery13.jpg" alt="gallery1" class="materialboxed responsive-img">
+      </div>      
+    </div>
+
+  </div>
+</section>
+
+<!-- Section: Contact -->
+<section id="contact" class="section section-contact scrollspy">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card-panel teal white-text center">
+          <i class="material-icons medium">email</i>
+          <h5>Contact Us For Booking</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eveniet officiis adipisci delectus pariatur fugiat aperiam numquam voluptatum dolor odio!</p>
+        </div>
+        <ul class="collection with-header">
+          <li class="collection-header">
+            <h4>Location</h4>
+          </li>
+          <li class="collection-item">Aurora Travels Agency</li>
+          <li class="collection-item">271 Okada rd, Suite 12</li>
+          <li class="collection-item">Minna, Niger State.</li>
+        </ul>
+      </div>
+      <!-- column 2 in the row -->
+      <div class="col s12 m6">
+        <div class="card-panel gry lighten-3">
+          <h5>Please fill out this form</h5>
+          <div class="input-field">
+            <input type="text" placeholder="Name" id="name">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field">
+            <input type="email" placeholder="Email" id="email">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Phone" id="phone">
+            <label for="phone">Phone</label>
+          </div>
+          <div class="input-field">
+            <textarea class="materialize-textarea" placeholder="Enter Message" name="" id="message"></textarea>
+            <label for="message"></label>
+          </div>
+          <input type="submit" class="btn teal darken-3" value="Submit">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Footer -->
+<!-- Footer -->
+<footer class="section teal white-text darken-2 center">
+  <p class="flow-text">Aurora Travels &copy: 2020</p>
+</footer>
+
+
+  <!-- *********************THE OTHER WORLD ***************************** -->
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="jquery/materializejquery.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // init side-nav
+      $('.button-collapse').sideNav();
+
+      // Init slider
+      $('.slider').slider({
+        indicators: false,
+        height: 500,
+        transition: 500,
+        interval: 6000
+      });
+
+      //init autocomplete
+      $('.autocomplete').autocomplete({
+        data: {
+          "Aruba": null,
+          "Cancun Mexico": null,
+          "Hawaii": null,
+          "Florida": null,
+          "California": null,
+          "Jamaica": null,
+          "Europe": null,
+          "The Bahamas": null
+        }
+      });
+      
+    });
+
+    //  Init scrollspy
+    $('.scrollspy').scrollSpy(); 
+  </script>
+</body>
+
+</html>
